@@ -1,0 +1,44 @@
+button {
+    width: 3em;
+    height: 3em;
+    font-size: 1.5em;
+    border: none;
+    border-radius: 1.5em;
+    margin: 0.2em;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.calculator-body {
+    background-color: black;
+    border-radius: 1em;
+    padding-bottom: 1.3em;
+}
+
+.orange-button {
+    background-color: #FF9500;
+    color: #FFFFFF;
+}
+
+.grey-button {
+    background-color: #505050;
+    color: #FFFFFF;
+}
+
+.result {
+    color:#FFFFFF;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 2.5em;
+    padding-right: 1.7em;
+    padding-bottom: 0.2em;
+    font-size: 50px;
+}
+
+#zero {
+    width: 6.4em;
+    height: 2.85em;
+}
+
